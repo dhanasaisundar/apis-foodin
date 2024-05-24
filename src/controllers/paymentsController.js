@@ -35,8 +35,8 @@ const payments = async (req, res) => {
         },
       ],
       mode: "payment",
-      success_url: "https://client-foodinn.vercel.app/payment/successfull",
-      cancel_url: "https://client-foodinn.vercel.app/payment/cancel",
+      success_url: "https://foodinn.vercel.app/payment/successful",
+      cancel_url: "https://foodinn.vercel.app/payment/cancel",
       //customer: customer,
       //4000003560000123
     });
